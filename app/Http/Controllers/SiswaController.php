@@ -14,7 +14,8 @@ class SiswaController extends Controller
      */
     public function index()
     {
-        return \view('main');
+        $siswa = Siswa::all();
+        return \view('siswa.index', \compact('siswa'));
     }
 
     /**
@@ -24,7 +25,7 @@ class SiswaController extends Controller
      */
     public function create()
     {
-        //
+        return \view('siswa.create');
     }
 
     /**
