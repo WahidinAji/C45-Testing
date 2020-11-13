@@ -5,9 +5,7 @@
         <div class="card">
             <div class="card-header">
               Siswa create
-              <a href="{{ URL::route('index') }}" class="btn btn-primary">Kembali
-                  <span></span>
-              </a>
+              <a href="{{ URL::route('index') }}" class="btn btn-primary">Kembali</a>
             </div>
             <div class="card-body">
                 <table class="table table-striped">

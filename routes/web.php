@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('/', 'SiswaController');
+Route::resource('c45', 'C45Controller');
