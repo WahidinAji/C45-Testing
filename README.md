@@ -1,3 +1,22 @@
+## First Setup
+git clone https://github.com/WahidinAji/C45-Testing.git c45 =>(optional)
+cd c45 => (optional)
+
+## Install package of laravel with composer
+composer install
+## Touch or copy file
+cp .env.example .env
+
+## Running migration and seeding
+php artisan migrate
+php artisan db:seed
+
+## or u can running (optional)
+php artisan migrate:fresh --seed
+
+## Running project
+php artisan serve --port=9999 => (optional)
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

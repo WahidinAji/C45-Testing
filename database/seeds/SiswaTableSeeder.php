@@ -13,7 +13,7 @@ class SiswaTableSeeder extends Seeder
     public function run()
     {
         DB::table('siswas')->insert([
-            'name' => 'DELLA RAHMA DANI',
+            'nama' => 'DELLA RAHMA DANI',
             'gender' => 'P',
             'nilai_ipa' => 'B',
             'nilai_ips' => 'B',
