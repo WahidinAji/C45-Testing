@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 Route::resource('/', 'SiswaController');
 Route::resource('c45', 'C45Controller');
+Route::resource('beasiswa', 'BeasiswaController');

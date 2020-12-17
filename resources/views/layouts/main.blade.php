@@ -25,6 +25,7 @@
                 <div class="navbar-nav">
                   <a class="nav-link {{ Request::url() == url('/') ? 'active' : '' }}" aria-current="page" href="{{ URL::route('index') }}">Siswa</a>
                   <a class="nav-link {{ Request::url() == url('/c45') ? 'active' : '' }}" href="{{ URL::route('c45.index') }}">C45 Sample</a>
+                  <a class="nav-link {{ Request::url() == url('/beasiswa') ? 'active' : '' }}" href="{{ URL::route('beasiswa.index') }}">Beasiswa Sample</a>
                   <a class="nav-link" href="#">Pricing</a>
                 </div>
               </div>
